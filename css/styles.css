@@ -11,4 +11,70 @@ body {
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--yellow);
+}
+
+.card {
+  background-color: var(--white);
+  width: 328px;
+  height: 500px;
+  border: var(--gray950) solid 1px;
+  border-radius: 12px;
+  margin: 24px;
+}
+
+.cardInfo {
+  width: 280px;
+  padding: 1.5rem;
+}
+
+.cardInfo img {
+  width: 17.5rem;
+  border-radius: 0.5rem;
+}
+
+.cardDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  background-color: red;
+}
+
+.btn {
+  background-color: var(--yellow);
+  border: none;
+  font-weight: bold;
+  font-size: .8rem;
+  border-radius: 4px;
+  padding: 8px 12px;
+  max-width: 5rem;
+}
+
+.cardDesc p {
+  color: var(--gray500);
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2rem;
+  background-color: teal;
+}
+
+.avatar img {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.75rem;
+}
+
+.avatar p {
+  color: var(--gray950);
+  font-weight: bold;
 }
