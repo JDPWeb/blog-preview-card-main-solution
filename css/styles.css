@@ -67,7 +67,11 @@ body {
 
 .cardTitle {
   font-size: 1rem;
-  margin-bottom: 1.5rem;
+}
+
+.cardTitle:hover {
+  color: var(--yellow);
+  cursor: pointer;
 }
 
 .cardDescription {
@@ -100,7 +104,7 @@ body {
 
   .card {
     width: 24rem;
-    height: 32.5rem;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,6 +112,7 @@ body {
 
   .cardContent {
     width: 21rem;
+    padding: 2rem;
   }
 
   .cardContent img {
@@ -119,5 +124,14 @@ body {
     width: 2rem;
     height: 2rem;
     margin-right: 0.75rem;
+  }
+
+  .cardTitle {
+    font-size: 1.4rem;
+  }
+
+  .cardDescription {
+    font-size: .9rem;
+    line-height: 1.7;
   }
 }
