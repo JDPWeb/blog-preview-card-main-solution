@@ -92,3 +92,32 @@ body {
   color: var(--gray950);
   font-weight: bold;
 }
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: yellowgreen;
+  }
+
+  .card {
+    width: 24rem;
+    height: 32.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardContent {
+    width: 21rem;
+  }
+
+  .cardContent img {
+    width: 21rem;
+    border-radius: .7rem;
+  }
+
+  .avatar img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+  }
+}
