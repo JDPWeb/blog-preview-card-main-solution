@@ -21,29 +21,29 @@ body {
 
 .card {
   background-color: var(--white);
-  width: 328px;
-  height: 500px;
-  border: var(--gray950) solid 1px;
-  border-radius: 12px;
-  margin: 24px;
+  width: 20.5rem;
+  height: 31.25rem;
+  border: var(--gray950) solid 2px;
+  border-radius: .75rem;
+  margin: 1.5rem;
+  box-shadow: 7px 7px 0px var(--gray950);
 }
 
-.cardInfo {
-  width: 280px;
+.cardContent {
+  width: 17.5rem;
   padding: 1.5rem;
 }
 
-.cardInfo img {
+.cardContent img {
   width: 17.5rem;
   border-radius: 0.5rem;
 }
 
-.cardDesc {
+.cardInfo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 1.5rem;
-  background-color: red;
 }
 
 .btn {
@@ -51,13 +51,28 @@ body {
   border: none;
   font-weight: bold;
   font-size: .8rem;
-  border-radius: 4px;
-  padding: 8px 12px;
+  border-radius: .25rem;
+  padding: .5rem .75rem;
   max-width: 5rem;
+  margin-bottom: .5rem;
 }
 
-.cardDesc p {
+.cardInfo p {
   color: var(--gray500);
+}
+
+.date {
+  font-size: .75rem;
+}
+
+.cardTitle {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cardDescription {
+  font-size: .8rem;
+  line-height: 1.7;
 }
 
 .avatar {
@@ -65,12 +80,11 @@ body {
   flex-direction: row;
   align-items: center;
   height: 2rem;
-  background-color: teal;
 }
 
 .avatar img {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   margin-right: 0.75rem;
 }
 
